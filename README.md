@@ -48,7 +48,12 @@ Was used 3-Tier architecture
    * [Tomcat 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/)
 2. Clone the project from GitHub.
 3. Create DB using local MySQL or remote database. You can find schema in init_db.sql file.
-4. Put our DB URL, username, password, and JDBC driver to [ConnectionUtil.class](https://github.com/sanya-1xx8/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java).
+4. Put your:
+   * DB URL instead of "YOUR_DB" in String URL
+   * username instead of "USERNAME" in String USERNAME
+   * password instead of "PASSWORD" in String PASSWORD
+   * JDBC driver instead of "YOUR_DRIVER" in String JDBC_DRIVER
+     to [ConnectionUtil.class](https://github.com/sanya-1xx8/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java).
 
 ![img_2.png](docs/images/img_2.png)
 5. Add Tomcat 9.0.50 configuration.
