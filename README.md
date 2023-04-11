@@ -36,9 +36,6 @@ Was used 3-Tier architecture
 * resources - contains sql-script to create scheme and tables of taxi-service
 * webapp - contains web resourses like JSP and CSS files
 
-### **DB schema:**
-
-![img_1.png](docs/images/img_1.png)
 
 ## <img height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png?v8" width="20"/> **Setup and run**
 
@@ -50,5 +47,4 @@ Was used 3-Tier architecture
 3. Create DB using local MySQL or remote database. You can find schema in init_db.sql file.
 4. Put our DB URL, username, password, and JDBC driver to [ConnectionUtil.class](https://github.com/sanya-1xx8/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java).
 
-![img_2.png](docs/images/img_2.png)
 5. Add Tomcat 9.0.50 configuration.
