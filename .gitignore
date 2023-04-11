@@ -2,4 +2,5 @@
 *.iml
 target/*
 logs/*
-*.png
+out/*
+docs/images/*
